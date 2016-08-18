@@ -19,4 +19,5 @@ for words in file_rd:
         words_dict[words] =1
     else: words_dict[words] = words_dict[words] + 1
 count = sum(words_dict.values())
-if count - amount == 0: print count
+if count - amount == 0:
+    print "The number of the words in text is: ", count
